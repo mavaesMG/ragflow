@@ -23,8 +23,9 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     environment:
       - TZ=${TIMEZONE}
-      - HF_ENDPOINT=https://huggingface.co
+      - HF_ENDPOINT=https://hf-mirror.com
       - MACOS=${MACOS}
+      - MAX_CONTENT_LENGTH=${MAX_CONTENT_LENGTH}
     networks:
       - ragflow
     restart: always
