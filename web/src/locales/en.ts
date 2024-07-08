@@ -565,6 +565,9 @@ The above is the content you need to summarize.`,
       componentId: 'component id',
       add: 'Add',
       operation: 'operation',
+      run: 'Run',
+      save: 'Save',
+      title: 'Title:',
       beginDescription: 'This is where the flow begin',
       answerDescription: `This component is used as an interface between bot and human. It receives input of user and display the result of the computation of the bot.`,
       retrievalDescription: `This component is for the process of retrieving relevent information from knowledge base. So, knowledgebases should be selected. If there's nothing retrieved, the 'Empty response' will be returned.`,
@@ -578,6 +581,8 @@ The above is the content you need to summarize.`,
       promptText: `Please summarize the following paragraphs. Be careful with the numbers, do not make things up. Paragraphs as following:
         {input}
   The above is the content you need to summarize.`,
+      create: 'Create graph',
+      createFromTemplates: 'Create from templates',
     },
     footer: {
       profile: 'All rights reserved @ React',
