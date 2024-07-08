@@ -111,6 +111,7 @@ class YoudaoRerank(DefaultRerank):
             with YoudaoRerank._model_lock:
                 if not YoudaoRerank._model:
                     try:
+                        print("FLAG 1")
                         print("LOADING BCE...")
                         YoudaoRerank._model = RerankerModel(model_name_or_path=os.path.join(
                             get_home_cache_dir(),

@@ -266,6 +266,7 @@ class YoudaoEmbed(Base):
         from BCEmbedding import EmbeddingModel as qanthing
         if not YoudaoEmbed._client:
             try:
+                print("FLAG 2")
                 print("LOADING BCE...")
                 YoudaoEmbed._client = qanthing(model_name_or_path=os.path.join(
                     get_home_cache_dir(),

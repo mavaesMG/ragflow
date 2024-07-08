@@ -1,4 +1,4 @@
-FROM infiniflow/ragflow-base:v2.0
+FROM mavaesmg/ragflow-base:latest
 USER  root
 
 WORKDIR /ragflow
